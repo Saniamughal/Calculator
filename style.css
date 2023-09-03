@@ -1,0 +1,22 @@
+.main-container{
+    display: flex;
+    background-color: black;
+    width:400px;
+    height:300px;
+    flex-wrap: wrap;
+    padding: 23px;
+    
+}
+#input-field{
+    width:392px;
+    height:40px;
+}
+.button-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button-containers button{
+    width:89px;
+    height:40px;
+} 
