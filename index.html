@@ -1,18 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Calculator</title>
-</head>
-<body>
-   <div class="header">
+    </head>
+    <body>
+    <div class="header">
     <h1>
         Calculator
     </h1>
-</div>
-<div class="main-container">
+    </div>
+    <div class="main-container">
     <div>
         <input id="input-field" type="text" placeholder="0"/>
     </div>
@@ -35,24 +35,9 @@
         <button class="button" value="AC">AC</button>
         <button class="button" value="=">=</button>
     </div>
-</div>
-<!-- JavaScript  -->
-<script>
-   const showValue=(event)=>{
-   var input= document.getElementById("input-field");
-   console.log(button.value)
-   if(event.target.value=="AC")
-      input.value=""
-   else{
-    var currentValue=input.value;
-    input.value= currentValue+event.target.value;}
-    }
-   var button=document.querySelectorAll("button")
-   button.forEach(buttons => {
-    buttons.addEventListener("click",showValue)
-   });
-  
-</script>
-</body>
+    </div>
+    <!-- JavaScript  -->
+    <script src="script.js"></script>
+    </body>
 
-</html>
+    </html>
